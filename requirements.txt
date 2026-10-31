@@ -1,0 +1,14 @@
+# Candidate environment only; original versions were not recorded.
+# Transformers <4.46 retains the notebook's evaluation_strategy argument.
+torch>=2.2,<3
+transformers[torch]>=4.40,<4.46
+datasets>=2.18,<3
+accelerate>=0.28,<1
+evaluate>=0.4,<0.5
+numpy>=1.26,<2
+pandas>=2.1,<3
+scikit-learn>=1.3,<2
+tabulate>=0.9,<1
+sentencepiece>=0.2,<0.3
+jupyterlab>=4,<5
+ipykernel>=6,<7
